@@ -106,7 +106,7 @@ public class MenuTarefas {
         } else {
             System.out.println("Lista de Tarefas:");
             for (Tarefa tarefa : tarefas) {
-                System.out.println("ID: " + tarefa.getId() + " | Nome: " + tarefa.getNome());
+                System.out.println(tarefa.toString());
             }
         }
     }
