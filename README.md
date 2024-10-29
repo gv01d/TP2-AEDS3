@@ -3,6 +3,12 @@
 Este projeto aprimora o sistema de gerenciamento de tarefas ao adicionar um relacionamento 1:N entre tarefas e categorias. Cada tarefa pode agora pertencer a uma categoria, que organiza e facilita a visualização e o controle das tarefas. 
 Para isso, foi utilizada uma árvore B+ para gerenciar as relações entre IDs de tarefas e categorias, um CRUD com índice direto para categorias e um índice indireto por nome para categorias, facilitando a busca e controle de exclusões vinculadas.
 
+## Alunos
+
+- Arthur Clemente Machado
+- Gabriel Cunha Schlegel
+- Lucas Henrique Rocha Hauck
+
 ## Estrutura das Classes
 
 ### Classe `ArquivoCategorias`
